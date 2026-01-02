@@ -2,6 +2,9 @@
   id: N14InstrumentBanjo
   category: Items
   cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentBanjo
 
@@ -9,6 +12,9 @@
   id: N14InstrumentClarinet
   category: Items
   cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentClarinet
 
@@ -16,6 +22,9 @@
   id: N14InstrumentFlute
   category: Items
   cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentFlute
 
@@ -23,6 +32,9 @@
   id: N14InstrumentGuitar
   category: Items
   cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentGuitar
 
@@ -30,6 +42,9 @@
   id: N14InstrumentHarmonica
   category: Items
   cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentHarmonica
 
@@ -37,6 +52,9 @@
   id: N14InstrumentPanflute
   category: Items
   cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentPanflute
 
@@ -44,6 +62,9 @@
   id: N14InstrumentSaxaphone
   category: Items
   cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentSaxaphone
 
@@ -51,6 +72,9 @@
   id: N14InstrumentTrombone
   category: Items
   cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentTrombone
 
@@ -58,6 +82,9 @@
   id: N14InstrumentTrumpet
   category: Items
   cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentTrumpet
 
@@ -74,7 +101,7 @@
   category: Items
   cost: 2
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutSmokeables
   items:
     - N14CigarettePackSalem
@@ -84,7 +111,7 @@
   category: Items
   cost: 2
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutSmokeables
   items:
     - N14CigarettePackKool
@@ -94,7 +121,7 @@
   category: Items
   cost: 2
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutSmokeables
   items:
     - N14CigarettePackMarlboro
@@ -104,7 +131,7 @@
   category: Items
   cost: 2
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutSmokeables
   items:
     - N14CigarettePackWinston
@@ -114,7 +141,7 @@
   category: Items
   cost: 2
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutSmokeables
   items:
     - N14CigarettePackCustom
@@ -124,7 +151,7 @@
   category: Items
   cost: 2
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutSmokeables
   items:
     - N14CigarettePackRepublics
@@ -135,7 +162,7 @@
   category: Items
   cost: 1
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutLighters
   items:
     - Lighter
@@ -145,7 +172,7 @@
   category: Items
   cost: 1
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutLighters
   items:
     - CheapLighter
@@ -155,7 +182,7 @@
   category: Items
   cost: 1
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutLighters
   items:
     - Matchbox
