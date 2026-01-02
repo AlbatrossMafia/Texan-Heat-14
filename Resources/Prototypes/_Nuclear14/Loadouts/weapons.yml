@@ -1,104 +1,20 @@
-# Pistols
-- type: loadout
-  id: N14WeaponPistol22lr
-  category: Weapons
-  cost: 2
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutGuns
-  items:
-    - N14WeaponPistol22lr
+#ALL prices are subject to change based on gameplay experience.
+
+#Melee Weapons - Sharp
 
 - type: loadout
-  id: N14WeaponRevolver9mm
-  category: Weapons
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutGuns
-  items:
-    - N14WeaponRevolver9mm
-
-- type: loadout
-  id: N14WeaponPistol10mmPipe
-  category: Weapons
-  cost: 2
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutGuns
-  items:
-    - N14WeaponPistol10mmPipe
-
-- type: loadout
-  id: N14WeaponPistol9mm
-  category: Weapons
-  cost: 2
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutGuns
-  items:
-    - N14WeaponPistol9mm
-
-# Shotguns
-- type: loadout
-  id: N14WeaponShotgunDoubleBarrel
-  category: Weapons
-  cost: 2
-  requirements:
-    - !type:OverallTimeRequirement
-      min: 3600
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutGuns
-  items:
-    - N14WeaponShotgunDoubleBarrel
-
-# Rifles
-
-- type: loadout
-  id: N14WeaponRifle556Pipe
-  category: Weapons
-  cost: 5
-  requirements:
-    - !type:OverallTimeRequirement
-      min: 6800
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutGuns
-  items:
-    - N14WeaponRifle556Pipe
-
-# Ammo
-- type: loadout
-  id: N14SpeedLoader9
-  category: Weapons
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutAmmo
-  items:
-    - SpeedLoader9
-
-# Melee
-- type: loadout
-  id: N14KitchenKnife
-  category: Weapons
-  cost: 2
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutMelee
-  items:
-    - N14KitchenKnife
-
-- type: loadout
-  id: N14BrassKnife
+  id: N14WastelandTribalJavelin
   category: Weapons
   cost: 3
-  customColorTint: true
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
   items:
-    - N14BrassKnife
+    - N14WastelandTribalJavelin
 
 - type: loadout
   id: N14WastelandTribalSpear
@@ -113,3 +29,611 @@
         - Tribe
   items:
     - N14WastelandTribalSpear
+
+- type: loadout
+  id: N14KitchenKnife
+  category: Weapons
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14KitchenKnife
+
+- type: loadout
+  id: N14ButchersCleaver
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14ButchersCleaver
+
+- type: loadout
+  id: N14CombatKnife
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14CombatKnife
+
+- type: loadout
+  id: N14TribalKnife
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14TribalKnife
+
+- type: loadout
+  id: N14BrassKnife
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14BrassKnife
+
+- type: loadout
+  id: N14Hatchet
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14Hatchet
+
+- type: loadout
+  id: N14TribalHatchet
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14TribalHatchet
+
+
+
+#Melee - Blunt
+
+- type: loadout
+  id: N14PoolCue
+  category: Weapons
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14PoolCue
+
+- type: loadout
+  id: N14GolfClub
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14GolfClub
+
+- type: loadout
+  id: N14BaseBallBat
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14BaseBallBat
+
+- type: loadout
+  id: N14NailBoard
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14NailBoard
+
+- type: loadout
+  id: N14BrokenPipe
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14BrokenPipe
+
+- type: loadout
+  id: N14TrenchClub
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14TrenchClub
+
+#Guns - Revolvers
+
+- type: loadout
+  id: N14WeaponRevolver9mm
+  category: Weapons
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponRevolver9mm
+
+- type: loadout
+  id: N14WeaponRevolver10mm
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponRevolver10mm
+
+- type: loadout
+  id: N14WeaponRevolver44Tribal
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponRevolver44Tribal
+
+#Guns - Autoloading Handguns
+
+- type: loadout
+  id: N14WeaponPistol9mm
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponPistol9mm
+
+- type: loadout
+  id: N14WeaponPistol9mmChinese
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponPistol9mmChinese
+
+- type: loadout
+  id: N14WeaponPistol22lr
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponPistol22lr
+
+- type: loadout
+  id: N14WeaponPistol10mmPipe
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponPistol10mmPipe
+
+- type: loadout
+  id: N14WeaponPistol10mm
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponPistol10mm
+
+- type: loadout
+  id: N14WeaponPistol45Colt
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponPistol45Colt
+
+#Rifles - Manual Action
+
+- type: loadout
+  id: N14WeaponSniperHunting
+  category: Weapons
+  cost: 4
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponSniperHunting
+
+# Yes, both the Lee Enfield and the Hunting Rifle are 4 points. I can't justify a whole point difference between them for two extra rounds. Enjoy the flavour, I guess - Nerb
+
+- type: loadout
+  id: N14WeaponSniper556VarmintRifle
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponSniper556VarmintRifle
+
+- type: loadout
+  id: N14WeaponSniper308Ross
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponSniper308Ross
+
+- type: loadout
+  id: N14WeaponSniperEnfield
+  category: Weapons
+  cost: 4
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponSniperEnfield
+
+- type: loadout
+  id: N14WeaponSniper44LeverCarbine
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponSniper44LeverCarbine
+
+#Guns - Automatics
+
+- type: loadout
+  id: N14WeaponSMG9mm
+  category: Weapons
+  cost: 4
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponSMG9mm
+
+- type: loadout
+  id: N14WeaponSMG9mmCanadian
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponSMG9mmCanadian
+
+- type: loadout
+  id: N14WeaponSMG10mmPipe
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponSMG10mmPipe
+
+#Shotguns
+
+- type: loadout
+  id: N14WeaponShotgunDoubleBarrel
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponShotgunDoubleBarrel
+
+- type: loadout
+  id: N14WeaponShotgunCaravan
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponShotgunCaravan
+
+- type: loadout
+  id: N14WeaponShotgunSawedOff
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponShotgunSawedOff
+
+- type: loadout
+  id: N14WeaponShotgunBoomstick
+  category: Weapons
+  cost: 4
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponShotgunBoomstick
+
+- type: loadout
+  id: N14WeaponShotgun
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponShotgun
+
+- type: loadout
+  id: N14WeaponShotgunLever
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponShotgunLever
+
+#Guns - Rifles
+
+- type: loadout
+  id: N14WeaponRifle308Battle
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponRifle308Battle
+
+- type: loadout
+  id: N14WeaponRifle762SKS
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponRifle762SKS
+
+- type: loadout
+  id: N14WeaponRifle556Pipe
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponRifle556Pipe
+
+# Energy
+
+- type: loadout
+  id: N14WeaponLaserPistol
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponLaserPistol
+
+- type: loadout
+  id: N14WeaponPlasmaPistol
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponPlasmaPistol
+
+- type: loadout
+  id: N14WeaponLaserRifleCrude
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Wastelander
+        - Tribe
+  items:
+    - N14WeaponLaserRifleCrude
