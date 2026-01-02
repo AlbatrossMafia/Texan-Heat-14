@@ -1,115 +1,136 @@
-# Pistols
+#Revolver
+
 - type: loadout
-  id: N14WeaponPistol22lr
+  id: N14WeaponRevolver10mm
   category: Weapons
   cost: 2
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutGuns
   items:
-    - N14WeaponPistol22lr
+    - N14WeaponRevolver10mm
 
 - type: loadout
-  id: N14WeaponRevolver9mm
+  id: N14WeaponRevolver44Tribal
   category: Weapons
-  cost: 1
+  cost: 3
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutGuns
   items:
-    - N14WeaponRevolver9mm
+    - N14WeaponRevolver44Tribal
 
 - type: loadout
-  id: N14WeaponPistol10mmPipe
+  id: N14WeaponRevolverWebley
   category: Weapons
-  cost: 2
+  cost: 4
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutGuns
   items:
-    - N14WeaponPistol10mmPipe
+    - N14WeaponRevolverWebley
+
+- type: loadout
+  id: N14WeaponRevolver44Magnun
+  category: Weapons
+  cost: 4
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+  items:
+    - N14WeaponRevolver44Magnun
+
+#Autoloading handguns
 
 - type: loadout
   id: N14WeaponPistol9mm
   category: Weapons
   cost: 2
   requirements:
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutGuns
   items:
     - N14WeaponPistol9mm
 
-# Shotguns
 - type: loadout
-  id: N14WeaponShotgunDoubleBarrel
+  id: N14WeaponPistol9mmChinese
   category: Weapons
   cost: 2
   requirements:
-    - !type:OverallTimeRequirement
-      min: 3600
-    - !type:CharacterItemGroupRequirement
+    - !type: CharacterItemGroupRequirement
       group: N14LoadoutGuns
   items:
-    - N14WeaponShotgunDoubleBarrel
+    - N14WeaponPistol9mmChinese
+
+- type: loadout
+  id: N14WeaponPistol9mm
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+  items:
+    - N14WeaponPistol9mm
+
+- type: loadout
+  id: N14WeaponPistol22lr
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+  items:
+    - N14WeaponPistol22lr
+
+- type: loadout
+  id: N14WeaponPistol10mm
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+  items:
+    - N14WeaponPistol10mm
+
+- type: loadout
+  id: N14WeaponPistol45Colt
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+  items:
+    - N14WeaponPistol45Colt
 
 # Rifles
 
 - type: loadout
-  id: N14WeaponRifle556Pipe
-  category: Weapons
-  cost: 5
-  requirements:
-    - !type:OverallTimeRequirement
-      min: 6800
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutGuns
-  items:
-    - N14WeaponRifle556Pipe
-
-# Ammo
-- type: loadout
-  id: N14SpeedLoader9
-  category: Weapons
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutAmmo
-  items:
-    - SpeedLoader9
-
-# Melee
-- type: loadout
-  id: N14KitchenKnife
+  id: N14WeaponSniper308PipeRifle
   category: Weapons
   cost: 2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutMelee
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutGuns
   items:
-    - N14KitchenKnife
+    - N14WeaponSniper308PipeRifle
 
 - type: loadout
-  id: N14BrassKnife
-  category: Weapons
-  cost: 3
-  customColorTint: true
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutMelee
-  items:
-    - N14BrassKnife
-
-- type: loadout
-  id: N14WastelandTribalSpear
+  id: N14WeaponSniperHunting
   category: Weapons
   cost: 4
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutMelee
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Wastelander
-        - Tribe
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutGuns
   items:
-    - N14WastelandTribalSpear
+    - N14WeaponSniperHunting
+
+- type: loadout
+  id: N14WeaponSniperEnfield
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type: CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+  items:
+    - N14WeaponSniperEnfield
+
