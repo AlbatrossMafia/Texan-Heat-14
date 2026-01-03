@@ -4,6 +4,9 @@
   id: N14InstrumentBanjo
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentBanjo
 
@@ -11,6 +14,9 @@
   id: N14InstrumentClarinet
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentClarinet
 
@@ -18,6 +24,9 @@
   id: N14InstrumentFlute
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentFlute
 
@@ -25,6 +34,9 @@
   id: N14InstrumentGuitar
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentGuitar
 
@@ -32,6 +44,9 @@
   id: N14InstrumentHarmonica
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentHarmonica
 
@@ -39,6 +54,9 @@
   id: N14InstrumentPanflute
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentPanflute
 
@@ -46,6 +64,9 @@
   id: N14InstrumentSaxaphone
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentSaxaphone
 
@@ -53,6 +74,9 @@
   id: N14InstrumentTrombone
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentTrombone
 
@@ -60,6 +84,9 @@
   id: N14InstrumentTrumpet
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentTrumpet
 
@@ -67,6 +94,9 @@
   id: N14InstrumentViolin
   category: Items
   cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutInstruments
   items:
     - N14InstrumentViolin
 
