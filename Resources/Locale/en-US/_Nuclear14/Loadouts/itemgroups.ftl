@@ -10,4 +10,4 @@ character-item-group-N14LoadoutMelee = Melee Weapons
 character-item-group-N14LoadoutNeck = Neckwear
 character-item-group-N14LoadoutOuter = Outerwear
 character-item-group-N14LoadoutShoes = Shoes
-character-item-group-N14Instrument = Musical Instruments
+character-item-group-N14LoadoutInstruments = Musical Instruments
